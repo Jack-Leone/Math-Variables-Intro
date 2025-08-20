@@ -6,7 +6,8 @@ class Main {
     System.out.println("Hello world!");
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
-
+System.out.println(4 + "bananas");
+System.out.println("Hello");
 
 
 
@@ -34,7 +35,9 @@ class Main {
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
 
-
+int Math = 3;
+double Car = 3.5;
+boolean SkyIsBlue = true;
 
 
     //MATH TIME!
@@ -43,18 +46,42 @@ class Main {
     //+ - * / %
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
-
+    System.out.println(6+8/2);
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
+    System.out.println("HI");
+    for (int count = 1; count <= 100;count+=2)
+    {
+    
 
+      System.out.print(count + " ");
 
-
+    }
+   System.out.println(" ");
+   System.out.println (" ");
+    
     //All multiples of 3 from 1 to 100
 
+for (int count = 3; count <= 100; count+=3){
+
+  System.out.print(count + " ");
+
+}
+
+System.out.println (" ");
+System.out.println (" ");
+
+    
+//Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
 
 
+for(int count = 1000; count >= 0; count-=10){
 
-    //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+  System.out.print(count + " ");
+
+}
+
+
   }
 }
